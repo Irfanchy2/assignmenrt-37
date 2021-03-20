@@ -631,22 +631,44 @@ ul.navbar-nav li:hover ul{
     position: relative;
 }
 .our_mamber h2::after {
-    position: absolute;
-    content: "";
-    width: 80px;
-    height: 2px;
-    background: #3763EB;
-    top: 166px;
-    left: 0;
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 2px;
+	background: #3763EB;
+	top: 96px;
+	left: 0;
 }
 
 /* blog section */
+.title_area h6{color: #3763eb;
+    font-weight: 500;
+    font-size: 18px}
+.title_area h2{font-size: 42px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 40px;
+    position: relative;}
+    .title_area h2::before {
+        content: "";
+        position: absolute;
+        bottom: -18px;
+        left: 282px;
+        width: 10%;
+        height: 2%;
+        background-color: #3763eb;
+    }
+
+.title_area p{color: #606060;
+    font-size: 1rem;
+    line-height: 2rem;}
 /* projectarea */
 .blog-image{
     position: relative;
     
 }
-.blog-image h3 {
+
+.blog-image h2 {
     font-size: 24px;
     color: #000;
     margin: 20px 0;
